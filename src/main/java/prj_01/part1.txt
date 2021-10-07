@@ -1,0 +1,12 @@
+
+
+What we first observe after running RRScheduler in its default values (p = 5, t = 100, s = 1)
+is a String indicating that the program has begun to execute. 
+
+Later we can observe that the program has created a new Thread object depending on the value of p. Since p = 5 in this case, the program creates 5 Thread
+objects.
+
+Prints string indicating main is finished
+
+
+Finally, the program proceeds to run threads, which print the current thread that is executing
