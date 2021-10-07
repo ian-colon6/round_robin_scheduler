@@ -4,7 +4,7 @@ public class RRScheduler {
     public static void main(String[] args){
         int termination_limit = 100;
         int no_threads = 5;
-        int project_step = 1;
+        int project_step = 2;
         for (int i=0; i<args.length; i++) {
             if (args[i].equals("-t") || args[i].equals("--termination")) {
                 termination_limit = Integer.valueOf(args[++i]);

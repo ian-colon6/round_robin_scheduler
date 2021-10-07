@@ -72,7 +72,7 @@ public class RoundRobinCLL implements RoundRobinCLLInterface {
             if(count > termination_limit) break;
 
             if(processes.get(count).proccessed_flag == false){
-                holdRR(processes.get(count + 1), true);
+                holdRR(processes.get(count), true);
             }
 
             count++;
@@ -89,7 +89,7 @@ public class RoundRobinCLL implements RoundRobinCLLInterface {
             if (count>termination_limit) break;
 
             if( processes.get(count).proccessed_flag ){
-                holdRR(processes.get(count + 1), false);
+                holdRR(processes.get(count), false);
             }
 
             System.out.println("Main Move No.: " + count%num_nodes + "\t" + toString());
