@@ -1,5 +1,9 @@
 package prj_01;
+
+// Ián G. Colón ian.colon6@upr.edu
+
 public class ThreadRunnable implements Runnable {
+    /** MADE NO CHANGES */
 
     private boolean doStop = false;
     private RoundRobinCLL rr = null;

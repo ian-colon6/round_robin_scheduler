@@ -1,4 +1,5 @@
 
+Ián G. Colón ian.colon6@upr.edu
 
 What we first observe after running RRScheduler in its default values (p = 5, t = 100, s = 1)
 is a String indicating that the program has begun to execute. 
