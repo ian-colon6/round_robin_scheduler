@@ -77,7 +77,7 @@ public class RoundRobinCLL implements RoundRobinCLLInterface {
          */
         int count = 0;
         int index = 0;
-        while(count <= termination_limit){
+        while(count <= termination_limit && !stopLoop){
 
             /** 
              * FIRST IF STATEMENT CHECKS WHETHER THE NODE IS PROCESSED OR NOT
@@ -111,7 +111,7 @@ public class RoundRobinCLL implements RoundRobinCLLInterface {
          */
         int count = 0 ;
         int index = 0;
-        while (count <= termination_limit) {
+        while (count <= termination_limit && !stopLoop) {
             /* PUT YOUR CODE HERE TO FIND THE FILLED SLOTS */
 
             /** 
